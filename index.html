@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./script.js">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>if you meet world, say hello to world</h1>
+    <script>
+        // ex1
+        str = prompt();
+        var newStr = str.charAt(0).toUpperCase() + str.slice(1);
+        alert(newStr);
+        // ex2
+        str = prompt();
+        alert(str.replace(/a/g, "4").replace(/e/g, "3").replace(/i/g, "1").replace(/o/g, "0").replace(/s/g, "5").trim());
+        // ex3
+        str = prompt();
+        if (str.length >= 3) {
+            if (str.slice(-3) == "ing") {
+                alert(str + "ly");
+            }
+            else {
+                alert(str + "ing");
+            }
+        } else {
+            alert(n);
+        }
+    </script>
+</body>
+
+</html>
